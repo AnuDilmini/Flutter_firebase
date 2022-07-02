@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1327529274",
+    "project_id": "flutter-interview-cfd52",
+    "storage_bucket": "flutter-interview-cfd52.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1327529274:android:6a64919e095bf0f7996403",
+        "android_client_info": {
+          "package_name": "com.example.flutter_interview"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1327529274-ah24ui7a80ifck3nlf7og9m03uhb2nth.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDKNvA1arHf2KonKcx9ZQierzNF70q_CoQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1327529274-ah24ui7a80ifck3nlf7og9m03uhb2nth.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
