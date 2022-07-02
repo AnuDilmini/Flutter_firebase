@@ -52,7 +52,6 @@ class _HomePageState extends State<HomePage> {
         .map((snapshot) =>
             snapshot.map((e) => User.fromJson(e.data())).toList());
 
-    print("stream location $stream");
 
     return stream;
   }
@@ -62,7 +61,6 @@ class _HomePageState extends State<HomePage> {
         (snapshot) =>
             snapshot.docs.map((doc) => User.fromJson(doc.data())).toList());
 
-    print("users normal $stream");
     return stream;
   }
 

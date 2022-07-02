@@ -18,7 +18,7 @@ class SharedPreferencesClass {
     double lat = preferences.getDouble("lat");
     double long = preferences.getDouble("long");
 
-    print("lat $lat ,,,, long $long");
+
     return [lat, long];
 
   }

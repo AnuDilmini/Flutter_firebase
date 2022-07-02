@@ -136,7 +136,6 @@ class _MapViewPageState extends State<MapViewPage> {
                   myLocationEnabled: true,
                   markers: _markers,
                   onTap: (pos) {
-                    print(' ${pos}');
                     Marker f = Marker(
                         markerId: MarkerId('1'),
                         position: LatLng(pos.latitude, pos.longitude),
