@@ -116,7 +116,7 @@ class _AddUserPageState extends State<AddUserPage> {
       Placemark place = placemarks[0];
 
       setState(() {
-        locationSelect = "${place.name}, ${place.locality}, ${place.postalCode}, ${place.country}";
+        locationSelect = "${place.name}, ${place.locality}, ${place.country}";
       });
     } catch (e) {
       print(e);
