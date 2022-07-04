@@ -4,6 +4,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_interview/common/shared_pref.dart';
 import 'package:flutter_interview/common/snackbar_dialog.dart';
 import 'package:flutter_interview/models/user.dart';
+import 'package:flutter_interview/screens/home_page.dart';
 import 'package:flutter_interview/screens/map_view.dart';
 import 'package:geocoding/geocoding.dart';
 import 'package:geoflutterfire/geoflutterfire.dart';
@@ -135,7 +136,7 @@ class _AddUserPageState extends State<AddUserPage> {
                 color: Colors.white,
               ),
               onPressed: () {
-                Navigator.pop(context);
+                Navigator.pushNamedAndRemoveUntil(context, HomePage.routeName, (route) => false);
               }),
           elevation: 1.2,
           centerTitle: false,

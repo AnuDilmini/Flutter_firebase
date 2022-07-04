@@ -175,36 +175,6 @@ class _HomePageState extends State<HomePage> {
                                 }
                               },
                             )
-                          // StreamBuilder<List<User>>(
-                          //     stream: fetchUserByLocation(),
-                          //     builder: (BuildContext context, snapshot) {
-                          //       if (!snapshot.hasData) {
-                          //         return Container(
-                          //             height: MediaQuery.of(context).size.height -
-                          //                 150,
-                          //             alignment: Alignment.center,
-                          //             child: CircularProgressIndicator());
-                          //       } else {
-                          //         final users = snapshot.data;
-                          //         return Padding(
-                          //           padding:
-                          //               const EdgeInsets.fromLTRB(5, 5, 5, 0),
-                          //           child: ListView.builder(
-                          //             itemCount: users.length,
-                          //             shrinkWrap: true,
-                          //             primary: false,
-                          //             padding: EdgeInsets.only(top: 10),
-                          //             itemBuilder:
-                          //                 (BuildContext context, int index) {
-                          //               return Padding(
-                          //                   padding: const EdgeInsets.symmetric(
-                          //                       vertical: 10, horizontal: 10),
-                          //                   child: ItemCard(user: users[index]));
-                          //             },
-                          //           ),
-                          //         );
-                          //       }
-                          //     })
                           : Container(
                               height: MediaQuery.of(context).size.height - 150,
                               alignment: Alignment.center,
