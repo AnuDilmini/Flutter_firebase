@@ -6,6 +6,9 @@ import 'dart:convert';
 
 import 'package:geoflutterfire/geoflutterfire.dart';
 
+List<User> usersFromJson(String str) =>
+    List<User>.from(json.decode(str).map((x) => User.fromJson(x)));
+
 User userFromJson(String str) => User.fromJson(json.decode(str));
 
 String userToJson(User data) => json.encode(data.toJson());
@@ -30,6 +33,7 @@ class User {
   double lat;
   double long;
   dynamic position;
+  double distance;
 
 
   factory User.fromJson(Map<String, dynamic> json) => User(
